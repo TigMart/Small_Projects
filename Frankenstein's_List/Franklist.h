@@ -102,7 +102,6 @@ template<typename T>
 Franklist<T>::Franklist(std::initializer_list<T> init) :Franklist()
 {
 	typename std::initializer_list<T>::iterator it = init.begin();
-	m_size = init.size();
 	while (it != init.end())
 	{
 		this->push_back(*it);
